@@ -1,0 +1,10 @@
+$legacy_browser_support: false !default;
+
+progress {
+  display: inline-block; /* 1 */
+  vertical-align: baseline; /* 2 */
+  @if $legacy_browser_support {
+    *display: inline;
+    *zoom: 1;
+  }
+}

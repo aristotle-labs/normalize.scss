@@ -1,0 +1,11 @@
+$legacy_browser_support: false !default;
+
+a {
+  background-color: transparent;
+}
+
+a {
+  &:active, &:hover {
+    outline: 0;
+  };
+}
